@@ -45,6 +45,7 @@ public class CountryController {
 	@ResponseBody
 	public Country getCountryIndia() {		
 		LOGGER.info("START");		
+		System.out.println("Hello from Country COntroller");
 		return countryService.getCountryIndia();
 	}
 	
